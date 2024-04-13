@@ -1,8 +1,11 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Http\Controllers\PostController;
 
+=======
+use App\Http\Controllers\PostController;      //追加
+>>>>>>> dev_basis02
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +16,12 @@ use App\Http\Controllers\PostController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 
 Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/posts', [PostController::class, 'index']);   
+=======
+Route::get('/', [PostController::class, 'index']);
+>>>>>>> dev_basis02
