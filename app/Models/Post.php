@@ -8,9 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-<<<<<<< HEAD
-}
-=======
     
     public function getByLimit(int $limit_count = 10)
     {
@@ -24,4 +21,3 @@ class Post extends Model
     
 }
 
->>>>>>> dev_basis02
